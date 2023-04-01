@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://cloudmusicapi-ten.vercel.app/:match*"
+      "destination": "${{ secrets.MUSICAPIWEB }}MUSICAPIWEB:match*"
     }
   ]
 }
