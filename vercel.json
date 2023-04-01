@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "${{ secrets.MUSICAPIWEB }}MUSICAPIWEB:match*"
+      "destination": "${{ secrets.MUSICAPIWEB }}:match*"
     }
   ]
 }
